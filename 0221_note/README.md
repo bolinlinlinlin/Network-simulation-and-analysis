@@ -1,6 +1,3 @@
-### 資料:
-- 參考：[详解云计算网络底层技术——Linux network namespace 原理与实践](https://segmentfault.com/a/1190000018391069)
-- 參考：[容器化技術的網路難題，為什麼它是安全的?  - 德鴻科技 Grandsys](https://www.grandsys.com.tw/news/rd/901-linux-docker)
 ## mininet 使用 network namespace 的隔離
 ### 相關操作指令
 - ip netns add xx 創建一个 namespace
@@ -75,3 +72,6 @@
 - ![20220221-3](/img/20220221-3.jpg)
 ### 使用 mn --topo tree,2 指令 產生環境
 - ![20220221-4](/img/20220221-4.jpg)
+### 資料:
+- 參考：[详解云计算网络底层技术——Linux network namespace 原理与实践](https://segmentfault.com/a/1190000018391069)
+- 參考：[容器化技術的網路難題，為什麼它是安全的?  - 德鴻科技 Grandsys](https://www.grandsys.com.tw/news/rd/901-linux-docker)
