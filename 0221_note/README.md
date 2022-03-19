@@ -17,5 +17,3 @@
 - curl http://10.0.0.2/hi.htm
 ### 結果
 - ![20220214](/img/20220214.jpg)
-### 資料:
-- 參考：[mininet](https://github.com/mininet/mininet.git)
