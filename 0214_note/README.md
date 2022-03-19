@@ -1,22 +1,12 @@
-## 虛擬環境架設
-- ![eve_login](/img/eve_login.jpg)
-### ip:192.168.52.136
-- ![eve_web](/img/eve_web.jpg)
-## 小實驗:
-- ![0914test1](/img/0914test1.jpg)
-### 開啟VPC1 VPC3 並設置IP
-```
-VPC1:
-ip 192.168.1.1 255.255.255.0
-VPC3:
-ip 192.168.1.2 255.255.255.0
-```
-### VPC3 ping VPC1
-```
-ping 192.168.1.1
-```
-### VPC1 ping VPC3
-```
-ping 192.168.1.2
-```
-- ![0914test1_result](/img/0914test1_result.jpg)
+## 使用環境 Ubuntu 16.04
+- 安裝 Ubuntu 16.04：[Ubuntu 16.04](https://releases.ubuntu.com/16.04/ubuntu-16.04.7-desktop-amd64.iso)
+## 安裝 Mininet
+- git clone https://github.com/mininet/mininet.git
+- cd mininet 
+- util/install.sh -a
+## 使用 mininet 最簡單指令
+- mn : 架設 mininet
+- xterm : 創建終端機
+## 課堂練習
+
+
