@@ -130,6 +130,7 @@ if __name__ == '__main__':
 
 
 ### ex2. 從外網透過 ssh tunnel 存取內部
+### Remote Port Forwarding : 從裡面先連到外面 , 由外部反向建立一個 ssh tunnel 
 ```py
 #!/usr/bin/python
 from mininet.net import Containernet
